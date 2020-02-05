@@ -24,7 +24,7 @@ public class StackTest {
                 break;
             }
         }
-        stack.showAll();
+   //     stack.showAll();
         // System.out.println(stack.peek());
     }
 

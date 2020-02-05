@@ -36,7 +36,7 @@ public class QueueTest {
         }
         //  q.showAll();
         assertEquals(movie, q.dequeue());
-        System.out.println(q.dequeue());
+  //      System.out.println(q.dequeue());
     }
     @Test
     public void length() {

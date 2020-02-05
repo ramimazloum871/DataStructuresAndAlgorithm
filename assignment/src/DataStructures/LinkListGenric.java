@@ -59,19 +59,21 @@ public class LinkListGenric<t> {
 	/**
 	 * function to show all values in linklist
 	 */
-	public void showAll(){
+	public String showAll(){
+		String info="";
 		current = start;
 		if(start == null){//handled empty list case
-			System.out.println("List is empty");
-			return;
+//			System.out.println("List is empty");
+			return "List is empty";
 		}
 
 		while(true){//iterating over empty list
 			if(current.link== null){
-				System.out.println(current.item);//printing last element in list
-				return;
+//				System.out.println(current.item);//printing last element in list
+				info+=current.item;
+				return info;
 			}
-			System.out.println(current.item);//print element in list
+//			System.out.println(current.item);//print element in list
 			current = current.link;//move current to next position
 		}
 	}
