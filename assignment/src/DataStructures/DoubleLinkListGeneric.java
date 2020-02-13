@@ -2,7 +2,7 @@ package DataStructures;
 
 /**
  *
- * @author Fasih Ullah
+ * @author
  * @param <t>
  */
 public class DoubleLinkListGeneric <t extends Comparable <t>> {

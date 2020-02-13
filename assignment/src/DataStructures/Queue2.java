@@ -3,7 +3,7 @@ package DataStructures;
 
 /**
  * generic queue implementation
- * @author Fasih Ullah
+ * @author 
  * @param <t>
  */
 public class Queue2<t> {
